@@ -142,22 +142,23 @@ def check_sql_injection(url, sql_payloads, output_file):
         with open(output_file, 'w') as result_file:
             # Iterasi melalui setiap payload SQL Injection
             for payload in sql_payloads:
+                # Membuat URL yang dimodifikasi dengan menambahkan payload sebagai parameter 'id'
                 modified_url = f"{url}?id={payload}"
                 # Mengirimkan permintaan GET dengan payload SQL Injection yang dimodifikasi
                 response = session.get(modified_url)
 
                 # Memeriksa apakah terdapat indikasi error dalam respons (case insensitive)
                 if "error" in response.text.lower() or "exception" in response.text.lower():
-                    # Jika payload ditemukan, mencetak dengan warna hijau
-                    print_and_write(result_file, f"Kerentanan SQL Injection ditemukan pada: {modified_url} dengan payload: {payload}")
+                    # Jika payload ditemukan, mencetak dengan warna merah
+                    print_and_write(result_file, f"Kerentanan SQL Injection ditemukan pada: {modified_url} dengan payload: {payload}", color=Fore.RED)
                 else:
                     # Jika payload tidak ditemukan, memeriksa indikasi perilaku yang diinginkan dalam respons (case insensitive)
                     if "desired_behavior_indicator" in response.text.lower():
-                        # Jika payload ditemukan, mencetak dengan warna hijau
-                        print_and_write(result_file, f"Kerentanan SQL Injection ditemukan pada: {modified_url} dengan payload: {payload}")
+                        # Jika payload ditemukan, mencetak dengan warna merah
+                        print_and_write(result_file, f"Kerentanan SQL Injection ditemukan pada: {modified_url} dengan payload: {payload}", color=Fore.RED)
                     else:
-                        # Jika payload tidak ditemukan, mencetak dengan warna kuning
-                        print_and_write(result_file, f"Tidak ditemukan Kerentanan SQL Injection pada: {modified_url} dengan payload: {payload}", color=Fore.YELLOW)
+                        # Jika payload tidak ditemukan, mencetak dengan warna hijau
+                        print_and_write(result_file, f"Tidak ditemukan Kerentanan SQL Injection pada: {modified_url} dengan payload: {payload}", color=Fore.GREEN)
 
         # Menyampaikan pesan bahwa hasil scan telah disimpan
         print(Fore.GREEN + f"Hasil scan disimpan di: {output_file}")
@@ -165,6 +166,7 @@ def check_sql_injection(url, sql_payloads, output_file):
     except requests.RequestException as e:
         # Menangkap dan mencetak kesalahan jika ada masalah pada permintaan HTTP
         print(Fore.RED + f"Error saat memeriksa SQL Injection: {e}")
+
 
 # Fungsi Ekstraksi Form dari URL
 def extract_input_fields(html_content):
