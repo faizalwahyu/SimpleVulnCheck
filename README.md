@@ -13,7 +13,7 @@
 #python3 simplevulncheck.py
 
 Keterangan : 
-1. Program yang dibuat akan memberikan 3 opsi yaitu
+1. Program yang dibuat akan memberikan 3 opsi yaitu :
    a. XSS scan dengan URL
    b. XSS scan dengan Form
    c. SQL Injection scan
