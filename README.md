@@ -1,5 +1,4 @@
-Sebelum menjalankan program, komputer harus terinstall python3
-dan untuk memaksimalkan penggunaan dapat diunduh library python3-colorama
+Sebelum menjalankan program, komputer harus terinstall python3 dan untuk memaksimalkan penggunaan dapat diunduh library python3-colorama
 #pip3 install colorama
 
 Untuk melakukan running dapat diunduh file dengan menjalankan 
@@ -16,6 +15,9 @@ Program yang dibuat akan memberikan 3 opsi yaitu
 3. SQL Injection scan
 
 Setiap Opsi akan diminta untuk memasukkan informasi URL Target dan Payload yang digunakan
+
 Program akan memberikan output dengan keterangan
+
 Warna Merah mengindikasikan terdapat kerentanan dan Warna Hijau tidak ada kerentanan
+
 Selain itu juga program akan menghasilkan output berupa file txt sesuai dengan letak program dijalankan
