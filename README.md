@@ -1,4 +1,5 @@
 Sebelum menjalankan program, komputer harus terinstall python3 dan untuk memaksimalkan penggunaan dapat diunduh library python3-colorama
+
 #pip3 install colorama
 
 Untuk melakukan running dapat diunduh file dengan menjalankan 
