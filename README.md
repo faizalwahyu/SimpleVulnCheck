@@ -1,22 +1,30 @@
 **XSS dan SQL Injection Scan**
 
-1. Sebelum menjalankan program, komputer harus terinstall python3 dan untuk memaksimalkan penggunaan dapat diunduh library python3-colorama
+1. Before running the program, Python3 must be installed on your computer. To optimize usage, you can also install the Python library colorama by running:
 
    pip3 install colorama
 
-2. Untuk melakukan running dapat diunduh file dengan menjalankan 
+2. To run the program, first download the files by executing:n 
 
    git clone https://github.com/faizalwahyu/SimpleVulnCheck
 
-3. Untuk melakukkan running program dapat menggunakan Python3
+3. To run the program, use Python3:
 
    python3 simplevulncheck.py
 
-Keterangan : 
-1. Program yang dibuat akan memberikan 3 opsi yaitu :	a. XSS scan dengan URL	b. XSS scan dengan Form	c. SQL Injection scan
+Description:
 
-2. Setiap Opsi akan diminta untuk memasukkan informasi URL Target dan Payload yang digunakan
+The program provides 3 options:
+    a. XSS scan using URL
+    b. XSS scan using Form
+    c. SQL Injection scan
 
-3. Program akan memberikan output dengan keterangan : Warna Merah mengindikasikan terdapat kerentanan dan Warna Hijau tidak ada kerentanan
+For each option, you will be asked to enter the Target URL and the Payload to be used.
 
-4. Selain itu juga program akan menghasilkan output berupa file txt sesuai dengan letak program dijalankan
+The program outputs results with color indications:
+
+   a. Red color indicates a vulnerability is found
+
+   b. Green color indicates no vulnerability detected
+
+Additionally, the program generates a text output file in the same directory where the program is run.
